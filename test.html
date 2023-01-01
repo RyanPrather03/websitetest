@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Ryan Prather landscaping</title>
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/605b23d994.js">
+        <script src="https://kit.fontawesome.com/605b23d994.js" crossorigin="anonymous"></script>
+    </head>
+<header>
+    <body style="background-color: floralwhite;">
+        <section class="header">
+            <nav>
+                <a href="test.html"><img src="Photos/logo2.jpg"></a>
+                <h2> Landscape Design/Build</h2>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()" style="font-size: 40px;"></i>
+                    <ul>
+                        <li><a href="./Services.html">Services</a></li>
+                        <li><a href="./Contactus.html">Contact</a></li>
+                        <li><a href="./Reviews.html">Reviews</a></li>
+                        <li><a href="./Projects.html">Projects</a></li>
+                    </ul>
+                
+                <i class="fa-solid fa-bars" onclick="showMenu()" style="color: white; font-size: 50px; padding: 15px 15px;"></i>
+            </div></nav>
+
+            <div class="text-box">
+                <h1 style="color: white;">Ryan Prather Landscaping</h1>
+                <p> Full-Service Landscaping</p>
+                <a href="tel:8126295202" class="hero-btn"> Give Us A Call</a>
+            </div>
+        </section>
+
+
+        <!-------- Course -------->
+        <section class="season">
+            <h1>What's In Season?</h1>
+            <p> We are currently in the Winter Cleanup Season</p>
+            <hr>
+
+            <div class="row">
+                <div class="season-col">
+                    <h3> Leaf Cleanup</h3>
+                    <img src="photos/leaf cleanup.jpeg" style="width: 90%;">
+                    <p> </p>
+                </div>
+                <div class="season-col">
+                    <h3> Trimming</h3>
+                    <img src="photos/mulching bed2.jpg" style="width: 90%;">
+                    <p> text here</p>
+                </div>
+                <div class="season-col">
+                    <h3> Winter Cleanup</h3>
+                    <img src="photos/wintercleanup.jpg" style="width: 90%;">
+                    <p> text here</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
+
+        <!--JavaScript for Toggle Menu buttom-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+<footer>
+    <h4><br>
+          We would love for you to reach out with any questions you have regarding landscaping.
+          We are here to help and would be estatic to work with you to make your landscaping
+           dream happen! You can contact us through...
+        <br><br><hr><br>
+        <div class="footerlinks">
+        <a href="tel:8126295202"
+        style="padding: 5px 5px; border: 2px solid black; background: #cad2c5;"> (812)629-5202 </a>
+        
+        <a href="mailto:ryanpratherlandscaping@gmail.com" 
+        style="border: 2px solid black; padding: 5px 5px;background-color: #cad2c5;" > Email </a>
+      
+        <a href="https://www.facebook.com/PratherLandscapingCo" 
+        style="border: 2px solid black; padding: 5px 5px; background-color: #cad2c5;"> Facebook </a>
+      </h4><br>
+    </div>
+</footer>
+    </body>
+</html>
