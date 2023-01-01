@@ -6,7 +6,7 @@
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)),
-     url(ryan2.jpg);
+     url("ryan2.jpg");
     background-position: top;
     background-size: cover;
     position: relative;
