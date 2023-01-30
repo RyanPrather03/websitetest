@@ -2,11 +2,30 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    --text-primary: black;
+    --text-secondary: white;
+    --bg-primary: floralwhite;
+    --bg-secondary: #84a59d;
+}
+body {
+    color: black;
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)),
-     url(https://ryanprather03.github.io/websitetest/ryan2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.4)),
+    url(https://ryanprather03.github.io/websitetest/ryan2.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -19,51 +38,25 @@
     background-size: cover;
     position: relative;
 }
-nav {
-    display: flex;
-    padding: 2%;
-    justify-content: space-between;
+.navbar {
+    width: 100vw;
+    height: 6rem;
+    background-color: var(--bg-primary);
+    opacity: 85%;
+    
 }
-nav img {
-    width: 100px;
-    position: absolute;
-    left: 47%;
-    padding: none;
-}
-nav h2 {
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 5%;
-    color: white;
+.navbar ul li a {
+    display: inline;
+    color: black;
+    height: 2rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .nav-links {
-    flex: 1;
     text-align: right;
 }
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-    padding-top: 50px;
-}
-.nav-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-weight: 700;
-}
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #84a59d;
-    display: block;
-    margin: auto;
-}
-.nav-links ul li:hover::after {
-    width: 100%;
-}
+
 .text-box {
     width: 90%;
     color: white;
@@ -74,7 +67,7 @@ nav h2 {
     text-align: center;
 }
 .text-box h1 {
-    font-size: 80px;
+    font-size: 75px;
 }
 .text-box p {
     margin: 10px 0 40px;
@@ -97,13 +90,7 @@ nav h2 {
     background-color: #84a59d;
     transition: 0.5s;
 }
-@media(min-width: 700px){
-    .nav-links i{
-        display: none;
-        width: 0%;
-        font-size: 0px;
-    }
-}
+
 @media(max-width: 700px){
     .header nav img{
         width: 20%;
@@ -132,12 +119,8 @@ nav h2 {
     }
     .nav-links{
         position: absolute;
-        background-color: #84a59d;
-        height: 100vh;
-        width: 125px;
         top: 0;
-        right: -125px;
-        text-align: left;
+        text-align: right;
         z-index: 2;
         transition: 1s;
     }
@@ -207,8 +190,7 @@ h3{
     margin: 10px 0;
     font-size: 30px;
 }
-/*
-.season-col:hover{
+/*.season-col:hover{
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
 }*/
 @media(max-width: 700px){
