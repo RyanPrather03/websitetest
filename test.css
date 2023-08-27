@@ -149,13 +149,10 @@ main {
 
 .season{
     min-height: 60vh;
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 25px;
-    /*background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)), url(Photos/wintercleanup.jpg);
-    background-position: top;
-    background-size: cover;*/
     position: relative;
 }
 h1{
