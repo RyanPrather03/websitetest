@@ -73,7 +73,7 @@ main {
     text-align: center;
 }
 .text-box h1 {
-    font-size: 75px;
+    font-size: 85px;
 }
 .text-box p {
     margin: 10px 0 40px;
@@ -102,10 +102,10 @@ main {
         display: none;
     }
     .text-box h1{
-        font-size: 25px;
+        font-size: 35px;
     }
     .text-box p{
-        font-size: 15px;
+        font-size: 22px;
     }
     .menu {
         display: flex;
@@ -117,7 +117,7 @@ main {
         display: block;
     }
     .nav-links ul li a{
-        font-size: 18px;
+        font-size: 20px;
     }
     .nav-links{
         position: absolute;
