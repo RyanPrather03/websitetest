@@ -149,7 +149,7 @@ main {
 
 .season{
     min-height: 60vh;
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 25px;
@@ -190,6 +190,9 @@ h3{
 @media(max-width: 700px){
     .row{
         flex-direction: column;
+    }
+    .season{
+        width: 100%;
     }
 }
 
